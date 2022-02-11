@@ -1,0 +1,28 @@
+.brand-color {
+        color: rgb(192, 10, 192);
+}
+
+.form {
+        margin: 0 auto;
+        background-color: rgb(243, 220, 243);
+}
+
+.brand-btn {
+        background-color: purple;
+        color: white;
+        font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+        .form {
+                width: 90%;
+                padding: 5%;
+        }
+}
+
+@media only screen and (min-width: 601px) {
+        .form {
+                width: 40%;
+                padding: 5%;
+        }
+}
